@@ -1,8 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
-import styles from "./page.module.css";
+
 import SplitType from "split-type";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
