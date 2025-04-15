@@ -22,7 +22,7 @@ export default function Info() {
       lineClass: "line",
     });
 
-    text.lines.forEach((line) => {
+    (text.lines as unknown as NodeListOf<HTMLElement>).forEach((line) => {
       const content = line.innerHTML;
       line.innerHTML = `<span>${content}</span>`;
     });
